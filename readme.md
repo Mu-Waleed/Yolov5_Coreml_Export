@@ -9,4 +9,8 @@ git clone https://github.com/Mu-Waleed/Yolov5_Coreml_Export.git
 cd yolov5-coreml-tools
 poetry install
 ```
+
+```
+poetry run coreml-export
+```
 Note: There is [conda.yaml](https://github.com/Mu-Waleed/Yolov5_Coreml_Export/blob/main/conda.yaml) for the exact module version I use in the environment. You can use same version if you face any issues.
